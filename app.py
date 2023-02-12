@@ -11,7 +11,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://github.com/llorenc-fer/YoutubeAPI/blob/main/pexels-elti-meshau-333850.jpg?raw=true");
+             background-image: url("https://github.com/llorenc-fer/YoutubeAPI/blob/main/pexels-elti-meshau-333850.png?raw=true");
              background-attachment: fixed;
              background-size: cover
          }}
