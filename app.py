@@ -26,16 +26,7 @@ add_bg_from_url()
 
 api_key = 'AIzaSyAGvRPcBwmeNvHY3WtlLQEu9Wi-SZz87t8'
 st.title("Youtube Quick-Stats App")
-#-------------CHANNEL COMPARATOR--------------------------------------------
-#channel_id = 'UCnz-ZXXER4jOvuED5trXfEA'
 
-# ['UCnz-ZXXER4jOvuED5trXfEA', # techTFQ
-#                'UCLLw7jmFsvfIVaUFsLs8mlQ', # Luke Barousse 
-#                'UCiT9RITQ9PW6BhXK0y2jaeg', # Ken Jee
-#                'UC7cs8q-gJRlGwj4A8OmCmXg', # Alex the analyst
-#                'UC2UXDak6o7rBm23k3Vv5dww', # Tina Huang
-#                'UCy5znSnfMsDwaLlROnZ7Qbg',  # Dot CSV
-#               ]
 
 youtube = build('youtube', 'v3', developerKey=api_key)
 
@@ -55,6 +46,7 @@ with st.expander("*About Channel IDs*"):
                 UCiT9RITQ9PW6BhXK0y2jaeg\n
                 UC7cs8q-gJRlGwj4A8OmCmXg\n
                 UC2UXDak6o7rBm23k3Vv5dww\n
+                To check for Channel ID's of other channels, go to any of their videos, double click and see code source (or ctrl+U), and then look for channelid with ctrl+F.
         """)        
 
 
