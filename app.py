@@ -174,7 +174,7 @@ videos_per_month = videos_per_month.sort_index()
 #----------------------------------STATS----------------------------------------------------------------------
 st.write("Channel Name: ", channel_statistics['Channel_name'])
 
-st.write('Last Videos:')
+st.write('Video Dataframe:')
 st.dataframe(video_data)
 
 
