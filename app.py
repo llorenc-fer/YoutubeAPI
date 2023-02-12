@@ -214,8 +214,7 @@ fig2 = px.histogram(videos_per_month,
                             title="Videos per month",
                             color_discrete_sequence=["red"]) 
 
-fig2.update_layout(title="Channel Views", 
-                    xaxis_title="Month", 
+fig2.update_layout(xaxis_title="Month", 
                     yaxis_title="Size", 
                     template = 'plotly_dark')
 fig2.update_layout(paper_bgcolor='rgba(0,0,0,0)')
