@@ -202,6 +202,8 @@ fig.update_layout(title="Top 10 most viewed videos",
                     template = 'plotly_dark')
 fig.update_layout(yaxis={'categoryorder':'total ascending'}) 
 fig.update_xaxes(minor=dict(showgrid=True))
+fig.update_layout(paper_bgcolor='rgba(0,0,0,0)')
+fig.update_layout(plot_bgcolor='rgba(0,0,0,0)')
 st.plotly_chart(fig)
 
 #Plot views
