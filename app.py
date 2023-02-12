@@ -26,7 +26,7 @@ add_bg_from_url()
 
 api_key = 'AIzaSyAGvRPcBwmeNvHY3WtlLQEu9Wi-SZz87t8'
 st.title("Youtube Quick-Stats App")
-
+st.write("by Llorenç Fernández")
 
 youtube = build('youtube', 'v3', developerKey=api_key)
 
