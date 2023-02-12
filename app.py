@@ -218,7 +218,7 @@ fig2.update_layout(title="Channel Views",
                     xaxis_title="Month", 
                     yaxis_title="Size", 
                     template = 'plotly_dark',
-                    layout= Layout)
+                    layout= layout)
    
 st.plotly_chart(fig2)
 
