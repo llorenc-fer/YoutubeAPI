@@ -217,8 +217,8 @@ fig2.update_layout(title="Channel Views",
                     yaxis_title="Size", 
                     template = 'plotly_dark',
                     layout= layout)
-fig2.update_layout(paper_bgcolor='rgba(0,0,0,0),
-                    plot_bgcolor='rgba(0,0,0,0)')
+fig2.update_layout(paper_bgcolor='rgba(0,0,0,0)')
+fig2.update_layout(plot_bgcolor='rgba(0,0,0,0)')
 st.plotly_chart(fig2)
 
 
