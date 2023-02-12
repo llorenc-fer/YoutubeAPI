@@ -1,0 +1,6 @@
+google_api_python_client==2.77.0
+matplotlib==3.6.2
+pandas==1.5.2
+plotly==5.11.0
+seaborn==0.12.2
+streamlit==1.16.0
