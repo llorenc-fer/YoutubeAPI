@@ -6,20 +6,22 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 
-# def add_bg_from_url():
-#     st.markdown(
-#         f"""
-#         <style>
-#         .stApp {{
-#             background-image: url("https://github.com/llorenc-fer/NYC-Collisions/blob/main/pexels-photo-7567529.png?raw=true");
-#             background-attachment: fixed;
-#             background-size: cover
-#         }}
-#         </style>
-#         """,
-#         unsafe_allow_html=True
-#     )
-# add_bg_from_url()
+def add_bg_from_url():
+    st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://github.com/llorenc-fer/YoutubeAPI/blob/main/pexels-elti-meshau-333850.jpg?raw=true");
+             background-attachment: fixed;
+             background-size: cover
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+
+
+add_bg_from_url()
 
 
 api_key = 'AIzaSyAGvRPcBwmeNvHY3WtlLQEu9Wi-SZz87t8'
