@@ -173,7 +173,7 @@ videos_per_month = videos_per_month.sort_index()
 
 #----------------------------------STATS----------------------------------------------------------------------
 st.write("Channel Name: ", channel_statistics['Channel_name'])
-
+st.write("Nº of subscribers: ", channel_statistics['Subscribers'])
 st.write('Video Dataframe:')
 st.dataframe(video_data)
 
